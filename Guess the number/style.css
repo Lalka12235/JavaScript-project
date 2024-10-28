@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+#base {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Перемещает элемент на половину своей ширины и высоты вверх и влево */
+    display: inline-block; /*  Используется для центрирования блока */
+    border: 1px solid ;
+    border-radius: 5px;
+    width: 450px;
+    height: 450px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#generate{
+    background-color: rgba(0, 128, 0, 0.726);
+    border: none;
+    border: 1px solid;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 20px; 
+    right: 20px;
+    cursor: pointer;
+}
+#text{
+    width: 300px;
+    height: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+#examination{
+    border-radius: 5px;
+    border: 1px solid;
+    cursor: pointer;
+    background-color: aqua;
+}
+p{
+    margin: 20px;
+    color: black;
+}
