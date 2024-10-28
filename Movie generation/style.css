@@ -1,0 +1,133 @@
+body {
+    height: 100vh;
+    background: linear-gradient(#1c1917 50%, #ffb92a 50%);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  #base {
+    border: none;
+    border-radius: 10px;
+    width: 500px;
+    height: 600px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #1e293b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #search {
+    width: 150px;
+    height: 40px;
+    background-color: #ffb92a;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  #search:hover {
+    background-color: #ffcc66; /* Slightly lighter yellow on hover */
+  }
+
+  #movie {
+    border: 1px solid #ffb92a;
+    border-radius: 5px;
+    background-color: #1e293b;
+    width: 300px;
+    height: 40px;
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    outline: none;
+  }
+
+  #movie::placeholder {
+    color: #ffb92a;
+  }
+h2{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: white;
+}
+h3{
+    font-weight: 500;
+    margin-top: 1.2em;
+    color: white;
+}
+p{
+    font-size: 0.9em;
+    font-weight: 300;
+    line-height: 1.8em;
+    text-align: justify;
+    color: #a0a0a0;
+}
+img{
+    width: 1.2em;
+}
+.info{
+    position: relative;
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    margin-top: 1.2em;
+}
+.poster{
+    width: 100%;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6em;
+    margin: 0.6em 0 0.9em 0;
+    color: white;
+}
+
+.rating img{
+    width: 1.2em;
+}
+
+.rating h4{
+    display: inline-block;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.details{
+    display: flex;
+    font-size: 0.95em;
+    gap: 1em;
+    justify-content: center;
+    color: #a0a0a0;
+    margin: 0.6em 0;
+    font-weight: 300;
+}
+
+.genre{
+    display: flex;
+    justify-content: space-around;
+}
+
+.genre div{
+    border: 1px solid #a0a0a0;
+    font-size: 0.75em;
+    padding: 0.4em 1.6em;
+    border-radius: 0.4em;
+    font-weight: 300;
+    color: white;
+}
+.msg{
+    text-align: center;
+}
