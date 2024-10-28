@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.555);
+}
+
+#base{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: gray;
+    width: 600px;
+    height: 650px;
+}
+#btn {
+    width: 50px; 
+    height: 50px; 
+    background-color: #3498db; 
+    color: white; 
+    border: none; 
+    border-radius: 50%; 
+    font-size: 16px; 
+    cursor: pointer; 
+    display: flex; /* Flexbox для центрирования текста */
+    align-items: center; /* Вертикальное центрирование текста */
+    justify-content: center; /* Горизонтальное центрирование текста */
+    transition: background-color 0.3s; /* Плавный переход для фона */          
+    position: fixed;
+    bottom: 20px; 
+    right: 20px;         
+}
+#btn:hover {
+    background-color: #2980b9; 
+} 
+h4{
+    padding-left: 20px;
+    color: white
+}
+h2{
+    color: white;
+}
+#text{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    position: fixed;
+    bottom: 20px; 
+    right: 85px; 
+    margin-bottom: 5px;
+}
+#text:focus{
+    outline: none;
+}
+ul {
+    list-style: none;
+}
+li{
+    color: white;
+    padding: 5px;
+}
+.completed {
+    text-decoration: line-through;
+    color: black;
+}
+button{
+    background-color: white;
+    margin-left:  500px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover{
+    background-color: rgba(255, 0, 0, 0.726); 
+}
