@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: gray;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+#base {
+    background-color: rgba(0, 0, 0, 0.616);
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+#text {
+    width: 498;;
+    height: 70px;
+    pointer-events: none;
+    background-color: rgba(0, 0, 0, 0.699);
+    border: none;
+    font-size: 32px;
+    text-align: right;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.item{
+    width: 100%;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    transition: background-color 0.3s;
+    background-color: rgba(128, 128, 128, 0.788);
+}
+.digit{
+    background-color: rgba(0, 0, 0, 0.63);
+    width: 100%;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    transition: background-color 0.3s;
+    color:white;
+}
+.math{
+    width: 100%;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    transition: background-color 0.3s;
+    background-color: orange;
+}
+
+.item:hover {
+    background-color: gray;
+}
+
+.digit:hover {
+    background-color: gray;
+}
+
+.math:hover {
+    background-color: gray;
+}
+h2{
+    color: white;
+}
+li{
+    list-style-type: none;
+    color:white;
+    font-size: 30px;
+    margin-top: 5px;
+}

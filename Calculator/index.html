@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <meta charset="utf-8" />
+    <link type="text/css" href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="base">
+        <input id="text" type="text"></input>
+        <div class="buttons">
+            <button class="item" onclick='clearEntry()'>C</button>
+            <button class="item" onclick='appendToDisplay("Ac")'>Ac</button>
+            <button class="item" onclick='appendToDisplay("%")'>%</button>
+            <button class="math" onclick='appendToDisplay("/")'>/</button>
+            <button class="digit" onclick='appendToDisplay("7")'>7</button>
+            <button class="digit" onclick='appendToDisplay("8")'>8</button>
+            <button class="digit" onclick='appendToDisplay("9")'>9</button>
+            <button class="math" onclick='appendToDisplay("*")'>*</button>
+            <button class="digit" onclick='appendToDisplay("4")'>4</button>
+            <button class="digit" onclick='appendToDisplay("5")'>5</button>
+            <button class="digit" onclick='appendToDisplay("6")'>6</button>
+            <button class="math" onclick='appendToDisplay("-")'>-</button>
+            <button class="digit" onclick='appendToDisplay("1")'>1</button>
+            <button class="digit" onclick='appendToDisplay("2")'>2</button>
+            <button class="digit" onclick='appendToDisplay("3")'>3</button>
+            <button class="math" onclick='appendToDisplay("+")'>+</button>
+            <button class="digit" onclick='appendToDisplay("0")'>0</button>
+            <button class="digit" onclick='appendToDisplay(".")'>.</button>
+            <button class="math" onclick='calculate()'>=</button>
+        </div>
+        <div id="history">
+            <h2>History</h2>
+            <ul>
+
+            </ul>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
